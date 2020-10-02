@@ -1,8 +1,8 @@
 "use strict";
 
 const helper = (server: any, config: any, _log: any) => {
-  const port = process.env.APP_PORT || 3000;
-  server.listen(port, (errs: any) => {
+  const port = process.env.APP_PORT || process.env.PORT || 3000;
+  server.listen(port, "0.0.0.0", (errs: any) => {
     if (errs instanceof Error) {
       console.log(
         "ENVIRONMENT: ",
