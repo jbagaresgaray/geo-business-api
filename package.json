@@ -8,7 +8,7 @@
     "clean-build": "rm -rf ./build",
     "clean": "npm-run-all clean-dist clean-build",
     "precommit": "lint-staged",
-    "start": "node ./dist",
+    "start": "npm run go",
     "start-build": "npm-run-all clean build watch",
     "start-dev": "nodemon",
     "go": "ts-node src/index.ts",

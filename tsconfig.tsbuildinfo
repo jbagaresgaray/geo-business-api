@@ -517,12 +517,12 @@
         "affectsGlobalScope": false
       },
       "./src/app/services/users.ts": {
-        "version": "b25cff273478f263a773cc8d9e00c94760d9c7089722685a00b04bf99e434978",
+        "version": "7d6abf6cdf20bf304206d101bb05270c6cd8bb46b7903397307cd4c8017fc18d",
         "signature": "eba5af71200749c1f74b55a183d5a10b71afbe54a5f5ee0e22770a94e9a889ae",
         "affectsGlobalScope": false
       },
       "./src/app/controllers/users.ts": {
-        "version": "bde6afc1731cde2b7dec9fc0a89a138c5ad1c81559ba23788bd1c40ff343eb67",
+        "version": "5cab482cf34476bc04113e634e04b6c054909db065b598498d80fc8fbc8fac5a",
         "signature": "edb88814c1f006f5d57f34236d75f98a24b59ba2a9b306aef23d2eb7511762d8",
         "affectsGlobalScope": false
       },
@@ -542,7 +542,7 @@
         "affectsGlobalScope": false
       },
       "./src/app/routes/documents.ts": {
-        "version": "9ed1529ad984feb6b3e8a85d67b4f3e082fc6c04f5c8e5c623b0b4cc3e9e36ee",
+        "version": "6be0d1a6e258020ddb1179aa57bc9268376ebdd40599efbe7e84fa0c68a2842c",
         "signature": "67e4b2cddadacbaf7dd58d9b7b06a30bd631a02290be4c0aeaab14245ecc0ea0",
         "affectsGlobalScope": false
       },
