@@ -14,7 +14,7 @@
     "go": "ts-node src/index.ts",
     "serve": "node build/api.min.js",
     "build-watch": "npm run build && npm-run-all -p watch start-dev",
-    "build": "npm-run-all build-ts lint-ts copy-static-assets build-webpack",
+    "build": "npm-run-all clean build-ts lint-ts copy-static-assets",
     "build-ts": "tsc",
     "build-webpack": "webpack",
     "lint-ts": "tslint -c tslint.json -p tsconfig.lint.json -t stylish --force",

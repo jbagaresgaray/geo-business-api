@@ -13,14 +13,17 @@ export const getAllBusiness = (next: any) => {
       });
     },
     err => {
-      return next(
-        {
-          msg: err.msg,
-          result: err,
-          success: false
-        },
-        null
-      );
+      console.log("err: ", err);
+      if (err) {
+        return next(
+          {
+            msg: err.msg,
+            result: err,
+            success: false
+          },
+          null
+        );
+      }
     }
   );
 };
