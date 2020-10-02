@@ -1,21 +1,22 @@
 "use strict";
 
 const helper = (server: any, config: any, _log: any) => {
-  const _config = config.environment;
-  server.listen(process.env.APP_PORT || _config.port, (errs: any) => {
+  server.listen(process.env.APP_PORT || config.port, (errs: any) => {
     if (errs instanceof Error) {
       console.log(
-        "ENVIRONMENT: " , _config.env , " Unable to start Server",
-        _config.port
+        "ENVIRONMENT: ",
+        config.env,
+        " Unable to start Server",
+        config.port
       );
     } else {
       console.log(
-        "ENVIRONMENT: " ,
-          _config.env ,
-          " Server started at PORT: " ,
-          _config.port ,
-          " Using API VERSION: " ,
-          _config.api_version
+        "ENVIRONMENT: ",
+        config.env,
+        " Server started at PORT: ",
+        config.port,
+        " Using API VERSION: ",
+        config.api_version
       );
     }
   });

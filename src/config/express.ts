@@ -2,17 +2,17 @@
 
 "use strict";
 
-import * as bodyParser from "body-parser";
-import * as cookieParser from "cookie-parser";
-import * as compression from "compression";
-import * as express from "express";
-import * as helmet from "helmet";
-import * as morgan from "morgan";
-import * as methodOverride from "method-override";
-import * as path from "path";
+import bodyParser from "body-parser";
+import cookieParser from "cookie-parser";
+import compression from "compression";
+import cors from "cors";
+import express from "express";
+import helmet from "helmet";
+import morgan from "morgan";
+import methodOverride from "method-override";
+import path from "path";
 
-import * as middleware from "../app/utils/middleware";
-import * as expressValidator from "express-validator";
+import expressValidator from "express-validator";
 
 export const expressConfig = (app: any, config: any) => {
   console.log("__dirname: ", path.join(__dirname, "../docs"));
@@ -24,8 +24,10 @@ export const expressConfig = (app: any, config: any) => {
   app.set("view engine", "ejs");
   app.set("views", path.join(__dirname, "../app/views"));
 
+  // tslint:disable-next-line: prefer-template
   app.use("/public", express.static(__dirname + "./../public"));
   app.use("/docs", express.static(path.join(__dirname, "../docs")));
+  // tslint:disable-next-line: prefer-template
   app.use("/uploads", express.static(__dirname + "./../public/uploads"));
   // Using helmet per best practise: https://expressjs.com/en/advanced/best-practice-security.html#use-helmet
   app.use(helmet());
@@ -48,6 +50,6 @@ export const expressConfig = (app: any, config: any) => {
       limit: "50mb"
     })
   );
-  app.use(middleware.allowCrossDomain);
+  app.use(cors());
   app.enable("trust proxy");
 };

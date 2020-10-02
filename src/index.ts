@@ -1,15 +1,15 @@
 "use strict";
 
-import * as dotenv from "dotenv";
+import dotenv from "dotenv";
 // ENVIRONMENTS
 dotenv.config();
 
 // LIBRARIES
-import * as bunyan from "bunyan";
-import * as express from "express";
-import * as http from "http";
+import bunyan from "bunyan";
+import express from "express";
+import http from "http";
 import * as middleware from "./app/utils/middleware";
-import * as config from "./config/environment";
+import { environment } from "./config/environment";
 // CONFIGS
 import { helper } from "./app/utils/helper";
 import { expressConfig } from "./config/express";
@@ -17,17 +17,17 @@ import { expressConfig } from "./config/express";
 import { mainRoute } from "./app/routes/index";
 import { documentRoute } from "./app/routes/documents";
 
-const app = express();
+const app: express.Application = express();
 const server = http.createServer(app);
 const log = bunyan.createLogger({
   name: "app_name_here"
 });
 
 // CONFIGS
-helper(server, config, log);
-expressConfig(app, config);
+helper(server, environment, log);
+expressConfig(app, environment);
 // ROUTES
-mainRoute(app, config, middleware);
+mainRoute(app, environment, middleware);
 documentRoute(app, middleware);
 
 export default app;

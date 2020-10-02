@@ -1,34 +1,18 @@
 /*jshint camelcase: false */
 
 "use strict";
-
-// ======================== VALIDATION ============================ //
-import { validateUser } from "../validation/users";
-
 // ======================== ROUTING ============================ //
-import {
-  _getAllUsers,
-  _createUser,
-  _getUser,
-  _deleteUser,
-  _updateUser
-} from "./routing/users";
+import { getAllBusiness } from "./routing/users";
 
 export const mainRoute = (app: any, config: any, _middleware: any) => {
-  console.log("ROUTES");
+  console.log("ROUTES: ", config.api_version);
 
   app.route("/").get((_req: any, res: any) => {
     res.render("index");
   });
 
   app
-    .route(config.api_version + "/users")
-    .get(_getAllUsers)
-    .post(validateUser, _createUser);
-
-  app
-    .route(config.api_version + "/users/:user_id")
-    .get(_getUser)
-    .delete(_deleteUser)
-    .put(validateUser, _updateUser);
+    // tslint:disable-next-line: prefer-template
+    .route(config.api_version + "/business")
+    .get(getAllBusiness);
 };
