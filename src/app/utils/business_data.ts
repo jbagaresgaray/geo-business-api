@@ -1,7 +1,10 @@
 export default [
   {
     type: "Feature",
-    coordinates: [-0.1428115, 51.5125168],
+    location: {
+      lat: -0.1428115,
+      lng: 51.5125168
+    },
     category: "patisserie",
     hours: "10am - 6pm",
     description:
@@ -12,7 +15,10 @@ export default [
   },
   {
     type: "Feature",
-    coordinates: [-2.579623, 51.452251],
+    location: {
+      lat: -2.579623,
+      lng: 51.452251
+    },
     category: "patisserie",
     hours: "10am - 6pm",
     description:
@@ -23,7 +29,10 @@ export default [
   },
   {
     type: "Feature",
-    coordinates: [1.273459, 52.638072],
+    location: {
+      lat: 1.273459,
+      lng: 52.638072
+    },
     category: "patisserie",
     hours: "10am - 6pm",
     description:
@@ -34,7 +43,10 @@ export default [
   },
   {
     type: "Feature",
-    coordinates: [-1.9912838, 50.8000418],
+    location: {
+      lat: -1.9912838,
+      lng: 50.8000418
+    },
     category: "patisserie",
     hours: "10am - 6pm",
     description:
@@ -45,7 +57,10 @@ export default [
   },
   {
     type: "Feature",
-    coordinates: [-2.985933, 53.408899],
+    location: {
+      lat: -2.985933,
+      lng: 53.408899
+    },
     category: "patisserie",
     hours: "10am - 6pm",
     description:
@@ -56,7 +71,10 @@ export default [
   },
   {
     type: "Feature",
-    coordinates: [-1.689423, 52.632469],
+    location: {
+      lat: -1.689423,
+      lng: 52.632469
+    },
     category: "patisserie",
     hours: "10am - 6pm",
     description:
@@ -67,7 +85,10 @@ export default [
   },
   {
     type: "Feature",
-    coordinates: [-3.155305, 51.479756],
+    location: {
+      lat: -3.155305,
+      lng: 51.479756
+    },
     category: "patisserie",
     hours: "10am - 6pm",
     description:
@@ -78,7 +99,10 @@ export default [
   },
   {
     type: "Feature",
-    coordinates: [-0.725019, 52.668891],
+    location: {
+      lat: -0.725019,
+      lng: 52.668891
+    },
     category: "cafe",
     hours: "8am - 9:30pm",
     description:
@@ -89,7 +113,10 @@ export default [
   },
   {
     type: "Feature",
-    coordinates: [-2.477653, 53.735405],
+    location: {
+      lat: -2.477653,
+      lng: 53.735405
+    },
     category: "cafe",
     hours: "8am - 9:30pm",
     description:
@@ -100,7 +127,10 @@ export default [
   },
   {
     type: "Feature",
-    coordinates: [-0.211363, 51.108966],
+    location: {
+      lat: -0.211363,
+      lng: 51.108966
+    },
     category: "cafe",
     hours: "8am - 9:30pm",
     description:
@@ -111,7 +141,10 @@ export default [
   },
   {
     type: "Feature",
-    coordinates: [-0.123559, 50.832679],
+    location: {
+      lat: -0.123559,
+      lng: 50.832679
+    },
     category: "cafe",
     hours: "8am - 9:30pm",
     description:
@@ -122,7 +155,10 @@ export default [
   },
   {
     type: "Feature",
-    coordinates: [-3.319575, 52.517827],
+    location: {
+      lat: -3.319575,
+      lng: 52.517827
+    },
     category: "cafe",
     hours: "8am - 9:30pm",
     description:
@@ -133,7 +169,10 @@ export default [
   },
   {
     type: "Feature",
-    coordinates: [1.158167, 52.071634],
+    location: {
+      lat: 1.158167,
+      lng: 52.071634
+    },
     category: "cafe",
     hours: "8am - 9:30pm",
     description:
@@ -141,5 +180,271 @@ export default [
     name: "Josie's Cafe Ipswich",
     phone: "+44 1717 17171",
     storeid: "13"
+  },
+  {
+    type: "Feature",
+    location: {
+      lat: 6.0751925,
+      lng: 125.1453569
+    },
+    category: "patisserie",
+    hours: "10am - 6pm",
+    description:
+      "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+    name: "Jollibee Gensan Calumpang DT",
+    phone: "+63833028888",
+    storeid: "01"
+  },
+  {
+    type: "Feature",
+    location: {
+      lat: 8.246218299999999,
+      lng: 124.2627272
+    },
+    category: "patisserie",
+    hours: "10am - 6pm",
+    description:
+      "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+    name: "Jacko's Kan-anan",
+    phone: "+63833028888",
+    storeid: "01"
+  },
+  {
+    type: "Feature",
+    location: {
+      lat: 8.249238,
+      lng: 124.2608337
+    },
+    category: "patisserie",
+    hours: "10am - 6pm",
+    description:
+      "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+    name: "Tatay's grill Seafood Haus",
+    phone: "+63833028888",
+    storeid: "01"
+  },
+  {
+    type: "Feature",
+    location: {
+      lat: 8.2541133,
+      lng: 124.2607842
+    },
+    category: "patisserie",
+    hours: "10am - 6pm",
+    description:
+      "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+    name: "Enang's grill and seafoods",
+    phone: "+63833028888",
+    storeid: "01"
+  },
+  {
+    type: "Feature",
+    location: {
+      lat: 8.237397,
+      lng: 124.24473
+    },
+    category: "patisserie",
+    hours: "10am - 6pm",
+    description:
+      "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+    name: "Pizzarella Iligan",
+    phone: "+63833028888",
+    storeid: "01"
+  },
+  {
+    type: "Feature",
+    location: {
+      lat: 8.2381267,
+      lng: 124.2438104
+    },
+    category: "patisserie",
+    hours: "10am - 6pm",
+    description:
+      "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+    name: "Jollibee Iligan Tibanga",
+    phone: "+63833028888",
+    storeid: "01"
+  },
+  {
+    type: "Feature",
+    location: {
+      lat: 8.230603799999999,
+      lng: 124.2411232
+    },
+    category: "patisserie",
+    hours: "10am - 6pm",
+    description:
+      "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+    name: "MR. CURLY PERi - PERi CHICKEN",
+    phone: "+63833028888",
+    storeid: "01"
+  },
+  {
+    type: "Feature",
+    location: {
+      lat: 8.245593299999999,
+      lng: 124.2573921
+    },
+    category: "patisserie",
+    hours: "10am - 6pm",
+    description:
+      "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+    name: "Ramen-yah! Japanese Noodle And Bento Restaurant",
+    phone: "+63833028888",
+    storeid: "01"
+  },
+  {
+    type: "Feature",
+    location: {
+      lat: 8.2276338,
+      lng: 124.2589937
+    },
+    category: "patisserie",
+    hours: "10am - 6pm",
+    description:
+      "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+    name: "Marianos Home-cooked Specialties",
+    phone: "+63833028888",
+    storeid: "01"
+  },
+  {
+    type: "Feature",
+    location: {
+      lat: 8.2295061,
+      lng: 124.2349619
+    },
+    category: "patisserie",
+    hours: "10am - 6pm",
+    description:
+      "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+    name: "Big Dipper Restaurant",
+    phone: "+63833028888",
+    storeid: "01"
+  },
+  {
+    type: "Feature",
+    location: {
+      lat: 8.2273475,
+      lng: 124.2524082
+    },
+    category: "patisserie",
+    hours: "10am - 6pm",
+    description:
+      "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+    name: "Oasis Resto",
+    phone: "+63833028888",
+    storeid: "01"
+  },
+  {
+    type: "Feature",
+    location: {
+      lat: 8.226409499999999,
+      lng: 124.2551699
+    },
+    category: "patisserie",
+    hours: "10am - 6pm",
+    description:
+      "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+    name: "Sunburst Fried Chicken",
+    phone: "+63833028888",
+    storeid: "01"
+  },
+  {
+    type: "Feature",
+    location: {
+      lat: 8.227292499999999,
+      lng: 124.2490333
+    },
+    category: "patisserie",
+    hours: "10am - 6pm",
+    description:
+      "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+    name: "Kelsey's Cafe And Restaurant",
+    phone: "+63833028888",
+    storeid: "01"
+  },
+  {
+    type: "Feature",
+    location: {
+      lat: 8.228684099999999,
+      lng: 124.2380282
+    },
+    category: "patisserie",
+    hours: "10am - 6pm",
+    description:
+      "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+    name: "LAI-LAI YEUNG CHOW RESTAURANT",
+    phone: "+63833028888",
+    storeid: "01"
+  },
+  {
+    type: "Feature",
+    location: {
+      lat: 8.226736799999999,
+      lng: 124.2494794
+    },
+    category: "patisserie",
+    hours: "10am - 6pm",
+    description:
+      "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+    name: "FLAMOO FLAME-GRILLED BURGERS",
+    phone: "+63833028888",
+    storeid: "01"
+  },
+  {
+    type: "Feature",
+    location: {
+      lat: 8.2270433,
+      lng: 124.2490135
+    },
+    category: "patisserie",
+    hours: "10am - 6pm",
+    description:
+      "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+    name: "Tadakuma",
+    phone: "+63833028888",
+    storeid: "01"
+  },
+  {
+    type: "Feature",
+    location: {
+      lat: 8.2280468,
+      lng: 124.2385161
+    },
+    category: "patisserie",
+    hours: "10am - 6pm",
+    description:
+      "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+    name: "Zoey Cafe",
+    phone: "+63833028888",
+    storeid: "01"
+  },
+  {
+    type: "Feature",
+    location: {
+      lat: 8.2271863,
+      lng: 124.250468
+    },
+    category: "patisserie",
+    hours: "10am - 6pm",
+    description:
+      "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+    name: "Iliganon",
+    phone: "+63833028888",
+    storeid: "01"
+  },
+  {
+    type: "Feature",
+    location: {
+      lat: 8.2270974,
+      lng: 124.2495068
+    },
+    category: "patisserie",
+    hours: "10am - 6pm",
+    description:
+      "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
+    name: "Calda Pizza - Iligan",
+    phone: "+63833028888",
+    storeid: "01"
   }
 ];
